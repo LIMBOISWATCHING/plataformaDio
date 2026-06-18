@@ -1,0 +1,24 @@
+Tema -- Criação de I.A Generativa
+
+-Fontes-
+https://www.alura.com.br/artigos/como-criar-inteligencia-artificial-ia
+https://brasileiraspln.com/livro-pln/2a-edicao/parte-modelos/cap-modelos-linguagem/cap-modelos-linguagem.pdf
+https://www.databricks.com/br/blog/llm-fine-tuning
+https://administrabrasil.com.br/wp-content/uploads/2025/05/Introducao-ao-Prompt-Engineering-com-Chat-GPT.pdf
+https://repositorio.ufu.br/bitstream/123456789/45935/3/IAGenerativaAmbientes.pdf
+
+
+
+--Perguntas--
+
+A pergunta inicial teve o proposito de começar o projeto de criação de uma I.A.
+"Como começo a criar o código de uma I.A generativa, que no futuro deve ter um filtro de personalidade e de palavras?"
+De acordo com isso, foi entendido que PyTorch ou TensorFlow, além do framework Hugging Face facilitam e são boas ferramentas na criação da I.A.
+
+A segunda pergunta foi para dar início a criação da I.A.
+"Para criar uma I.A do zero mesmo, sem usar nenhum modelo como base, como devo começar o código e quais requerimentos seriam necessários?"
+Para começar, será necessário um bom conjunto de dados massivos com bilhões de palavras ou tokens, poder computacional, já que as GPUs mais potentes fornecem um treinamento continuo e mais rápido tendo menos chances de erros, e também de uma infraestrutura de armazenamento, já que modelos ocupam bastante espaço por conta de bilhões de parâmetros.
+
+Para finalizar, a terceira pergunta foi o ponto de partida para a parte prática.
+"Como implementar um tokenizador do zero usando Python?"
+Iniciamos com a preparação do corpo e a limpeza, então precisamos normalizar os textos que o tokenizador vai analisar, e então a escolha do algoritmo, com o mais comum sendo BPE que é usado pela família do GPT, e então o mapeamento para IDs numéricos.
