@@ -32,6 +32,6 @@ Execute:
 
 streamlit run app.py
 
-## Objetivo
+## Link para uso online
 
-Auxiliar usuários a melhorar sua organização financeira através de Inteligência Artificial Generativa.
+https://edf-ai.streamlit.app/
